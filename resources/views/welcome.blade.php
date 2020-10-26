@@ -7,11 +7,9 @@
             <div class="form-group">
                 <label for="home">Choose a home:</label>
                 <select class="form-control" id="home">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                    @foreach($homes as $home)
+                        <option value="{{$home->id}}">{{$home->name}} (All beds: {{$home->beds}}) (Cost: {{$home->price_per_day}}$/day)</option>
+                    @endforeach
                 </select>
             </div>
             <div class="form-group">
