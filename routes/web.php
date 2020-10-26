@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::resource('homes', 'HomeController');
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::post('/create-reservation', [HomeController::class, 'CreateReservation'])->name('reservation');

@@ -23,9 +23,9 @@ class HomeFactory extends Factory
     {
         return [
             'name' => $this->faker->name,
-            'beds' => $this->faker->numberBetween(1,12),
+            'beds' => $this->faker->numberBetween(4,15),
             'price_per_day' => $this->faker->numberBetween(15,70),
-            'discount' => $this->faker->numberBetween(0,30),
+            'discount' => $this->faker->numberBetween(10,30),
         ];
     }
 }

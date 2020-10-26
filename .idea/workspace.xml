@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3fe37f-e300-4c85-86d1-94cecd645859" name="Default Changelist" comment="">
+    <list default="true" id="ee3fe37f-e300-4c85-86d1-94cecd645859" name="Default Changelist" comment="-Created and configured Model/Migration/Controller/Seeder/Factory for homes&#10;-Now homes from database are showed on welcome page">
+      <change afterPath="$PROJECT_DIR$/resources/views/success.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/HomeFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/HomeFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -143,7 +163,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CarRent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layout" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -154,7 +174,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projekty\HomeRent\resources\views\layout" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projekty\HomeRent\resources\views" />
       <recent name="C:\Projekty\HomeRent\resources\views\layout" />
     </key>
   </component>
@@ -173,18 +197,43 @@
       <option name="presentableId" value="Default" />
       <updated>1603615669049</updated>
       <workItem from="1603615670088" duration="9277000" />
-      <workItem from="1603705661628" duration="5811000" />
+      <workItem from="1603705661628" duration="6164000" />
+      <workItem from="1603727278050" duration="13613000" />
     </task>
+    <task id="LOCAL-00001" summary="-Created and configured Model/Migration/Controller/Seeder/Factory for homes&#10;-Now homes from database are showed on welcome page">
+      <created>1603712812475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603712812475</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-Created and configured Model/Migration/Controller/Seeder/Factory for homes&#10;-Now homes from database are showed on welcome page" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Created and configured Model/Migration/Controller/Seeder/Factory for homes&#10;-Now homes from database are showed on welcome page" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603709159527">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603740477059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1280.48.1280.984@0.0.1920.1040" timestamp="1603709159527" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1280.48.1280.984@0.0.1920.1040" timestamp="1603740477059" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603707892796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -197,6 +246,14 @@
       <screen x="-1280" y="48" width="1280" height="984" />
     </state>
     <state x="-868" y="245" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1280.48.1280.984@-1280.48.1280.984" timestamp="1603624365092" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603712816559">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.48.1280.984@0.0.1920.1040" timestamp="1603712816559" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603738479829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1280.48.1280.984@0.0.1920.1040" timestamp="1603738479829" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603708784645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
